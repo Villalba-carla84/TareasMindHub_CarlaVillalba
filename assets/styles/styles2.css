@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Comic Sans MS ;
+}
+
+.tituloPrincipal{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+header{
+    background-image: url(./../img/design1_image2.jpg);
+    background-size: cover;
+    width:100%;
+    height:350px; 
+    margin-top: 40px;
+   
+    
+}
+main  h2{
+    font-weight: bold;
+    color:black;
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+
+}
+nav{
+    position: relative;
+    top:-63vh;
+    left: 70%;
+  
+}
+
+.navegacion a{
+    text-decoration: none;
+    background-color: rgb(22, 143, 224);
+    color: whitesmoke;
+    padding: 10px;
+    box-shadow: 5px 5px 2px rgb(30, 47, 76);
+    border-radius: 2px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    font-size: medium;
+}
+
+.navegacion a:hover{
+    background-color:  rgb(95, 198, 243);
+}
+
+.navegacion a:active{
+    background-color: rgb(13, 150, 104);
+}
+
+#logo{
+    width: 200px;
+    border: 3px solid black;
+    position: relative;
+   background-color: white;
+   top: 500px;
+   box-shadow: 5px 5px 2px rgb(30, 47, 76);
+}
+
+.articulos{
+   position:absolute;
+   left: 250px;
+   width: 850px;
+   margin: 0px;
+   text-align: justify;
+  
+}
+article h3{
+    font-weight: bold;
+   margin-top: 20px;
+   padding: 10px;
+} 
+.correo a{
+    color:rgb(107, 159, 206);
+    text-decoration-color: black;
+
+}

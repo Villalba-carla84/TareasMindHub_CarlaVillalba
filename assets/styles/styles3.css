@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    background-image: url("./../img/design1_image2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+ }
+ .tituloPrincipal{
+    background-color: black;
+    font-weight: bold;
+    font-size: 90px;
+    color: goldenrod;
+    text-align: center;
+    padding: 5px;
+    font-family: fantasy;
+  
+}
+#logo{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin: 5px;
+    background-color: rgb(12, 12, 12);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 20%;
+}
+section{
+    display: inline-block;
+    vertical-align: top;
+}
+main h2{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin: 5px;
+    background-image: url("../img/design1_image1b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 55%;
+}
+.navegacion{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin: 5px;
+    background-color: rgb(12, 12, 12);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 20%;
+}
+main h2{
+   
+        background-color: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(184, 40, 11);
+        text-align: center;
+        font-weight: bold;
+        padding: 15px;
+    
+}
+.navegacion {
+    display: block;
+    padding: 20px;
+    box-shadow: 5px 5px 2px rgb(30, 47, 76);
+    border-radius: 5px;
+    box-shadow: 2px; 
+}
+.navegacion a{
+    text-decoration: none;
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    color: goldenrod;
+    margin-bottom: 20px;
+    display: block;
+    right: 15px;
+}
+article{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    color: black;
+    padding: 15px;
+    background-image: url(../img/Logo_Mighty_ducks_01.png);
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    color: black;
+    padding: 15px;
+}
+.correo a{
+    color:rgb(107, 159, 206);
+    text-decoration-color: black;
+}
