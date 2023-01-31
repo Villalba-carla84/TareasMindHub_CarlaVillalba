@@ -1,77 +1,54 @@
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: 0;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
 }
 body{
-    background-image: url("./../img/design1_image2.jpg");
+    background-image: url("./../img/design1_image2.jpg"); 
     background-repeat: no-repeat;
     background-size: cover;
+    
    
  }
  .tituloPrincipal{
-    background-color: black;
+    background-color: rgb(41, 41, 25);
     font-weight: bold;
     font-size: 90px;
     color: goldenrod;
     text-align: center;
     padding: 5px;
-    font-family: fantasy;
+    
   
 }
-#logo{
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 20px;
-    margin: 5px;
-    background-color: rgb(12, 12, 12);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 20%;
-}
-section{
-    display: inline-block;
-    vertical-align: top;
-}
 main h2{
     display: inline-block;
-    vertical-align: top;
-    margin-top: 20px;
     margin: 5px;
-    background-image: url("../img/design1_image1b.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
     width: 55%;
+    background-color: goldenrod;
+    color:black;
+    text-align: center;
+    border: 3px solid black;
 }
-.navegacion{
-    display: inline-block;
-    vertical-align: top;
-    margin-top: 20px;
-    margin: 5px;
-    background-color: rgb(12, 12, 12);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    width: 20%;
-}
-main h2{
-   
-        background-color: black;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color: rgb(184, 40, 11);
-        text-align: center;
-        font-weight: bold;
-        padding: 15px;
-    
+#logo{
+    width: 170px;
+    background-color: rgb(41, 41, 25);
+    padding: 10px;
+    border-radius: 50px;
+    margin: 5px 30px 10px 0px;
+    float:left;
+    clear: left;
+  
 }
 .navegacion {
-    display: block;
+    float: right;
     padding: 20px;
-    box-shadow: 5px 5px 2px rgb(30, 47, 76);
+    box-shadow: 5px 5px 2px rgb(95, 110, 25);
+    background-color: rgb(41, 41, 25);
     border-radius: 5px;
     box-shadow: 2px; 
+   margin:-30px 170px 0px 0px;
+    
+   
 }
 .navegacion a{
     text-decoration: none;
@@ -82,21 +59,26 @@ main h2{
     margin-bottom: 20px;
     display: block;
     right: 15px;
+
+   
+}
+.navegacion a:hover { 
+    font-size: 30px;
+ 
+}
+
+.articulos {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding: 15px;
+   
 }
 article{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: larger;
-    color: black;
-    padding: 15px;
-    background-image: url(../img/Logo_Mighty_ducks_01.png);
-}
-p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
-    color: black;
-    padding: 15px;
-}
+    margin: 0px 5px 15px 0px; 
+} 
+
 .correo a{
-    color:rgb(107, 159, 206);
+    color:rgb(10, 10, 10);
     text-decoration-color: black;
 }
