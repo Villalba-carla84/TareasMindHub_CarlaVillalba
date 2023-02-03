@@ -1,21 +1,22 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:Comic Sans MS  ;
+    font-family: Comic Sans MS;
 }
-   
- 
- .tituloPrincipal{
+
+
+.tituloPrincipal {
     background-color: rgb(41, 41, 25);
     font-weight: bold;
     font-size: 70px;
     color: goldenrod;
     text-align: center;
     padding: 10px;
-    
-  
+
+
 }
+
 /* main{
     background-image: url(./../img/design1_image2.jpg);
     height: 50px;
@@ -24,35 +25,39 @@
 } */
 
 
-main h2{
-   
+main h2 {
+
     background-color: goldenrod;
-    color:black;
+    color: black;
     text-align: center;
     border: 3px solid black;
 }
-#logo{
+
+#logo {
     width: 170px;
     background-color: rgb(41, 41, 25);
     padding: 10px;
     border-radius: 50px;
-    margin: 55px 30px 10px 10px; 
-    float:left;
+    margin: 55px 30px 10px 10px;
+    float: left;
     clear: left;
-  
+
 }
+
 .navegacion {
     float: right;
     padding: 30px;
     box-shadow: 5px 5px 2px rgb(95, 110, 25);
     background-color: rgb(41, 41, 25);
     border-radius: 5px;
-    margin: 20px 120px 0px 10px;;
-   
-    
-   
+    margin: 20px 120px 0px 10px;
+    ;
+
+
+
 }
-.navegacion a{
+
+.navegacion a {
     text-decoration: none;
     text-align: right;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -62,85 +67,103 @@ main h2{
     display: block;
     right: 15px;
 
-   
+
 }
-.navegacion a:hover { 
+
+.navegacion a:hover {
     font-size: 20px;
- 
+
 }
 
 .articulos {
-    
+
     color: black;
     padding: 15px;
-   
+
 }
-article{
-    margin: 0px 5px 15px 0px; 
-} 
-.correo{
-    margin-top:20px ;
+
+article {
+    margin: 0px 5px 15px 0px;
+}
+
+.correo {
+    margin-top: 20px;
     text-align: center;
 }
 
-.correo a{
-    color:rgb(10, 10, 10);
+.correo a {
+    color: rgb(10, 10, 10);
     text-decoration-color: black;
 }
 
-ul,ol{
-    margin:3px 0px 3px 30px;
+ul,
+ol {
+    margin: 3px 0px 3px 30px;
 }
-h4{
+
+h4 {
     display: none;
 }
-  caption{
-  
+
+caption {
+
     font-size: 20px;
-    margin:10px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
     text-decoration-line: underline;
     text-align: left;
-  }
-  table{
+}
+
+table {
     width: 700px;
     height: 400px;
     text-align: center;
-  }
-  dl.tel,dl.mail{
-    display:inline-block;
-    margin-right: 180px;
-  }
-  .tel dt,.tel dd,.mail dt,.mail dd{
+}
+
+dl.tel,
+dl.mail {
     display: inline-block;
-    
-  }
- 
-  h3{
-   
-    margin:20px;
-    text-align:justify;
+    margin-right: 180px;
+}
+
+.tel dt,
+.tel dd,
+.mail dt,
+.mail dd {
+    display: inline-block;
+
+}
+
+h3 {
+
+    margin: 20px;
+    text-align: justify;
     font-size: 20px;
-  }
-  dt{
+}
+
+dt {
     text-align: center;
     font-size: large;
     margin-top: 15px;
-  }
-  dd{
+}
+
+dd {
     font-size: large;
     font-style: italic;
     font-weight: bold;
     text-align: justify;
-  }
-  h5{
-    display:inline;
+}
+
+h5 {
+    display: inline;
     font-size: 20px;
-   
-  }
-.pautas dt{
-    display:inline;
+
+}
+
+.pautas dt {
+    display: inline;
     font-weight: bold;
 }
-.pautas dd{
-    display:inline;
+
+.pautas dd {
+    display: inline;
 }
