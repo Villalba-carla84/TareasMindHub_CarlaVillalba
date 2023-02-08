@@ -7,12 +7,7 @@
 
 
 .tituloPrincipal {
-    background-color: rgb(41, 41, 25);
-    font-weight: bold;
-    font-size: 70px;
-    color: goldenrod;
-    text-align: center;
-    padding: 10px;
+    padding-top: 50px;
 
 
 }
@@ -33,52 +28,74 @@ main h2 {
     border: 3px solid black;
 }
 
-#logo {
-    width: 170px;
+header {
+    display: flex;
     background-color: rgb(41, 41, 25);
-    padding: 10px;
-    border-radius: 50px;
-    margin: 55px 30px 10px 10px;
-    float: left;
-    clear: left;
-
+    font-weight: bold;
+    font-size: 30px;
+    color: goldenrod;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
 }
 
-.navegacion {
+#logo {
+    display: flex;
+    width: 200px;
+    background-color: rgb(41, 41, 25);
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 3px;
+    box-shadow: 5px 5px 2px rgb(95, 110, 25);
+    background-color: rgb(41, 41, 25);
+    border-radius: 5px;
+    margin: 10px 10px 0px 10px;
+}
+
+
+/* .navegacion {
     float: right;
     padding: 30px;
     box-shadow: 5px 5px 2px rgb(95, 110, 25);
     background-color: rgb(41, 41, 25);
     border-radius: 5px;
-    margin: 20px 120px 0px 10px;
+    margin: 20px 60px 0px 10px;
     ;
 
 
 
-}
+} */
 
 .navegacion a {
+    padding: 15px;
     text-decoration: none;
     text-align: right;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: larger;
     color: goldenrod;
-    margin-bottom: 40px;
-    display: block;
-    right: 15px;
-
 
 }
 
 .navegacion a:hover {
-    font-size: 20px;
+    font-size: 30px;
+    background: rgb(87, 80, 59);
 
 }
+
+/* .navegacion a:active{
+    color: blue;
+} */
 
 .articulos {
 
     color: black;
     padding: 15px;
+    margin: 20px 0 0 30px;
 
 }
 
@@ -98,7 +115,7 @@ article {
 
 ul,
 ol {
-    margin: 3px 0px 3px 30px;
+    margin: 3px 0px 30px 30px;
 }
 
 h4 {
@@ -110,12 +127,28 @@ caption {
     font-size: 20px;
     margin: 10px 0px 10px 0px;
     text-decoration-line: underline;
-    text-align: left;
+
 }
 
+
 table {
-    width: 700px;
+    width: 80%;
     height: 400px;
+    text-align: center;
+    padding: 20px 5px 0 30px;
+
+
+}
+
+th {
+    margin-right: 30px;
+}
+
+tbody td {
+    padding: 20px;
+}
+
+thead {
     text-align: center;
 }
 
@@ -130,12 +163,14 @@ dl.mail {
 .mail dt,
 .mail dd {
     display: inline-block;
+    margin-bottom: 15px;
+    margin-left: 15px;
 
 }
 
 h3 {
-
-    margin: 20px;
+    margin-left: 15px;
+    margin-top: 20px;
     text-align: justify;
     font-size: 20px;
 }
@@ -143,27 +178,117 @@ h3 {
 dt {
     text-align: center;
     font-size: large;
-    margin-top: 15px;
+    margin-top: 30px;
 }
 
 dd {
     font-size: large;
     font-style: italic;
     font-weight: bold;
-    text-align: justify;
+    text-align: center;
 }
 
 h5 {
     display: inline;
-    font-size: 20px;
+    font-size: 10px;
+    margin-left: 15px;
 
 }
 
 .pautas dt {
     display: inline;
     font-weight: bold;
+    margin-left: 25px;
 }
 
 .pautas dd {
     display: inline;
+
+}
+
+.maps {
+    padding: 5px 0 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+
+}
+
+.maps h5 {
+    margin: 40px 0 10px;
+    font-size: 16px;
+}
+
+.maps h3 {
+    font-size: 20px;
+    margin: 20px 0px 10px 0px;
+    text-decoration-line: underline;
+    text-align: left;
+}
+
+form {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(235, 238, 238);
+    padding: 30px;
+    margin: 30px 0 30px 60px;
+    gap: 15px;
+    box-shadow: 5px 5px 2px rgb(128, 138, 87);
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=date] {
+    padding: 12px 20px;
+    margin: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=radio] {
+    margin-right: 25px;
+}
+
+input[type=checkbox] {
+    margin-right: 25px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(128, 138, 87);
+    color: black;
+    font-size: 20px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    font-size: 30px;
+}
+
+fieldset {
+    padding: 25px;
 }
